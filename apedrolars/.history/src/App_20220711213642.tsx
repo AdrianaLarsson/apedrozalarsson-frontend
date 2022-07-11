@@ -19,7 +19,7 @@ function App() {
       <link rel="favicon" href="/favicon.ico" />
       <GlobalStyle />
       <ThemeProvider theme={globalColorTheme}>
-        <AdrianaImage/>
+        <AdrianaImage
       </ThemeProvider>
     </BrowserRouter>
   );

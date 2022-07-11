@@ -4,7 +4,7 @@ import { globalColorTheme } from "./GlobalColor";
 export default createGlobalStyle`
     body,
     html {
-        background-color: ${globalColorTheme.colors.snow} ;
+        background-color: ${globalColorTheme.color} ;
         padding: 0;
         margin: 0;
         font-family: "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto",

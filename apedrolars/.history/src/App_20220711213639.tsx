@@ -5,7 +5,6 @@ import { BrowserRouter } from "react-router-dom";
 import GlobalStyle from "./styles/Globals";
 import { ThemeProvider } from "styled-components";
 import { globalColorTheme } from "./styles/GlobalColor";
-import AdrianaImage from "./components/AdrianaImage/AdrianaImage";
 
 function App() {
   return (
@@ -19,7 +18,7 @@ function App() {
       <link rel="favicon" href="/favicon.ico" />
       <GlobalStyle />
       <ThemeProvider theme={globalColorTheme}>
-        <AdrianaImage/>
+        <A
       </ThemeProvider>
     </BrowserRouter>
   );

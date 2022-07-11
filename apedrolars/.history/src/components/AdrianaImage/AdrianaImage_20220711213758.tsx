@@ -1,5 +1,5 @@
 import React from "react";
-import adriana from '../../images/adriana(2).jpg'
+import adriana from '../../images/adriana.jpg'
 
 const AdrianaImage=():JSX.Element=> {
   return <div>AdrianaImage
