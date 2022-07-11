@@ -1,10 +1,8 @@
 import React from "react";
-/* import logo from "./logo.svg"; */
+import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter } from "react-router-dom";
-import GlobalStyle from "./styles/Globals";
-import { ThemeProvider } from "styled-components";
-import { globalColorTheme } from "./styles/GlobalColor";
+import Globals from "./styles/Globals";
 
 function App() {
   return (
@@ -16,10 +14,7 @@ function App() {
         key="viewport"
       />
       <link rel="favicon" href="/favicon.ico" />
-      <GlobalStyle />
-      <ThemeProvider theme={globalColorTheme}>
-        
-      </ThemeProvider>
+      <Globals />
     </BrowserRouter>
   );
 }

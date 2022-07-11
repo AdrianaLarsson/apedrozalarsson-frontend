@@ -4,7 +4,6 @@ import "./App.css";
 import { BrowserRouter } from "react-router-dom";
 import GlobalStyle from "./styles/Globals";
 import { ThemeProvider } from "styled-components";
-import { globalColorTheme } from "./styles/GlobalColor";
 
 function App() {
   return (
@@ -17,9 +16,7 @@ function App() {
       />
       <link rel="favicon" href="/favicon.ico" />
       <GlobalStyle />
-      <ThemeProvider theme={globalColorTheme}>
-        
-      </ThemeProvider>
+      <ThemeProvider
     </BrowserRouter>
   );
 }
