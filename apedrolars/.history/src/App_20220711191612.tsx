@@ -1,20 +1,11 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import { BrowserRouter } from "react-router-dom";
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
-      <title>SJ Admin Depot</title>
-      <meta
-        name="viewport"
-        content="initial-scale=1.0, width=device-width"
-        key="viewport"
-      />
-      <link rel="favicon" href="/favicon.ico" />
-      <GlobalStyle />
-    </BrowserRouter>
+
+    <Br
   );
 }
 

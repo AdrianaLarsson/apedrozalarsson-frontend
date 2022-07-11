@@ -7,13 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <title>SJ Admin Depot</title>
-      <meta
-        name="viewport"
-        content="initial-scale=1.0, width=device-width"
-        key="viewport"
-      />
-      <link rel="favicon" href="/favicon.ico" />
-      <GlobalStyle />
+      
     </BrowserRouter>
   );
 }

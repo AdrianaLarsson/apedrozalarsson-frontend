@@ -12,8 +12,6 @@ function App() {
         content="initial-scale=1.0, width=device-width"
         key="viewport"
       />
-      <link rel="favicon" href="/favicon.ico" />
-      <GlobalStyle />
     </BrowserRouter>
   );
 }

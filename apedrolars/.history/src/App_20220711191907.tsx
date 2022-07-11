@@ -13,7 +13,6 @@ function App() {
         key="viewport"
       />
       <link rel="favicon" href="/favicon.ico" />
-      <GlobalStyle />
     </BrowserRouter>
   );
 }
